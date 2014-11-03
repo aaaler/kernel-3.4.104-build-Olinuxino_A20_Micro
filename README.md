@@ -14,15 +14,12 @@ Brief feature list:
 
 
 Install:
-
-mount /dev/<your boot device> /boot
-
+<pre>
+mount /dev/&lt;your boot device&gt; /boot
 cp boot/* /boot
-
 cp firmware/* /lib/firmware
-
 cp modules/* /lib/modules
-
+</pre>
 
 __boot/uEnv.txt__ made to boot from __sata__ drive, 2nd partition. 
 change root variable to your rootfs device.
