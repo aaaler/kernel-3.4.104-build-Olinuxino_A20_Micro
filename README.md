@@ -5,10 +5,10 @@ linux-sunxi 3.4.104 build for Olimex Olinuxino A20 Micro
 
 Brief feature list:
 * SATA EHCI drivers (can boot rootfs from sata drive)
-* sunxi pwm driver (git://github.com/tanzilli/soft_pwm.git)
+* sunxi pwm driver 
 * sunxi nand drivers
 * olimex's sunxi-i2c.patch 100khz patch __NOT__ applied
-* soft_pwm module included
+* soft_pwm module included (git://github.com/tanzilli/soft_pwm.git)
 * ralink firmware from firmware-ralink debian package
 * USB-OTG fix applied (https://www.olimex.com/forum/index.php?topic=1757.msg7922)
 
